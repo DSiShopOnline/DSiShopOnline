@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'NDS12';
+    src: url('Macintosh HD/Users/andrewkacki/Downloads/DSiShop/fonts/NDS12/NDS12.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'NDS12', sans-serif;
+  }
+
+a[href*='Important Info'] {
+    color: red;
+}
+
+a[href*='StartShopping'] {
+    color: rgb(0, 153, 255);
+}
+
+a[href*='Recommended Titles'] {
+    color: rgb(50, 50, 50)
+}
+
+p {
+    color: red;
+    font-family: 'NDS12', sans-serif;
+    font-size: 2rem,
+}
+
+#lower-screen {
+    color: rgb(0, 153, 255);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    overflow: hidden;
+    background-color: red;
+    color:white
+  }
+
+ul h3 {
+    display: flex;
+    align-items: center;
+    height: 0px;
+  }
